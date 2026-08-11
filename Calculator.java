@@ -1,6 +1,10 @@
 public class Calculator {
 
     public int add(int a, int b) {
+        System.out.println("Performing Addition");
+        return a + b;
+    }
+     public int add2(int a, int b) {
         return a + b;
     }
 
@@ -9,4 +13,3 @@ public class Calculator {
         System.out.println(calc.add(10, 20));
     }
 }
-
